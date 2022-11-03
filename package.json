@@ -1,0 +1,19 @@
+{
+  "name": "use-abort-controller",
+  "version": "1.0.0",
+  "description": "Abort controller hook for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devarend/use-abort-controller.git"
+  },
+  "author": "devarend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devarend/use-abort-controller/issues"
+  },
+  "homepage": "https://github.com/devarend/use-abort-controller#readme"
+}
