@@ -3,18 +3,18 @@ import {useRef} from "react";
 export const useAbortController = () => {
     const abortController = useRef()
 
-    const setAbortController = () => {
+    const createSignal = () => {
         abortController.current?.abort()
         abortController.current = new AbortController()
         return abortController.current?.signal
     }
 
-    const onAbort = () => {
+    const abort = () => {
         abortController.current?.abort()
     }
 
     return {
-        createSignal: setAbortController,
-        abort: onAbort
+        createSignal,
+        abort
     }
 }
