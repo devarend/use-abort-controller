@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/devarend/use-abort-controller/issues"
   },
-  "homepage": "https://github.com/devarend/use-abort-controller#readme"
+  "homepage": "https://github.com/devarend/use-abort-controller#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
